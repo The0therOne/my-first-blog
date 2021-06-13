@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-x@)=uc@45(umlk$z^xt$vcxfx01ts@clh$5lbt7-t8+n!1lh!k
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1',
-                 'localhost'
+                 'localhost',
                  'ricrawl.pythonanywhere.com', ]
 
 
@@ -121,7 +121,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
